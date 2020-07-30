@@ -50,6 +50,8 @@
 // FOTA support for manifest version 1.
 #define FOTA_MANIFEST_SCHEMA_VERSION 3
 
+#define MBED_CLOUD_DEV_UPDATE_RAW_PUBLIC_KEY
+
 // Enable if bootloader supports encryption.
 #define MBED_CLOUD_CLIENT_FOTA_ENCRYPTION_SUPPORT 0
 
