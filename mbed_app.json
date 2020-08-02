@@ -34,6 +34,7 @@
             "mbed-client.enable-float-value"            : false,
             "mbed-client.event-loop-size"               : 512,
             "nsapi.dns-cache-size"                      : 0,
+            "mbed-cloud-client.storage-reset-dev-credentials": false,
             "nsapi.default-cellular-apn"                : "\"internet\"",
             "nsapi.default-wifi-security"               : "WPA_WPA2",
             "nsapi.default-wifi-ssid"                   : "\"mishka\"",
