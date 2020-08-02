@@ -51,4 +51,3 @@ const uint8_t arm_uc_default_psk_id_size = sizeof(arm_uc_default_psk_id);
 #endif
 
 #endif // MBED_CLOUD_CLIENT_FOTA_ENABLE
-
