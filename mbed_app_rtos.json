@@ -7,6 +7,13 @@
         "*": {
             "target.features_add"                       : ["BOOTLOADER"],
             "target.macros_add"                         : ["DISABLE_ERROR_DESCRIPTION=1"],
+            "target.header_format": [
+                ["magic", "const", "32le", "0x5c0253a3"],
+                ["firmwareSize", "size", "32le", ["application"]],
+                ["firmwareVersion", "const", "64le", "0x0"],
+                ["firmwareDigest", "digest", "SHA256", "application"],
+                ["precursorDigest", "digest", "SHA256", "application"]
+            ],                                            
             "platform.stdio-baud-rate"                  : 115200,
             "platform.stdio-convert-newlines"           : true,
             "platform.stdio-buffered-serial"            : false,
